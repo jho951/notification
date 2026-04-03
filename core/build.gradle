@@ -1,0 +1,3 @@
+dependencies {
+    // pure java (no spring)
+}

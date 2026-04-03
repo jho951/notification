@@ -1,0 +1,37 @@
+plugins {
+    id "java"
+    id "maven-publish"
+}
+
+allprojects {
+    group = "io.github.jho951"
+    version = "0.1.0"
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: "java-library"
+    apply plugin: "maven-publish"
+
+    java {
+        toolchain { languageVersion = JavaLanguageVersion.of(17) }
+        withSourcesJar()
+        withJavadocJar()
+    }
+
+    dependencies {
+        implementation(platform("org.springframework.boot:spring-boot-dependencies:3.5.6"))
+    }
+
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                from components.java
+                artifactId = project.name
+            }
+        }
+    }
+}
