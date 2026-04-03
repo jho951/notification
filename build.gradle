@@ -5,7 +5,7 @@ ext {
 
 allprojects {
     group = "io.github.jho951"
-    version = "0.1.0"
+    version = findProperty("releaseVersion") ?: "0.1.0"
 
     repositories {
         mavenCentral()
