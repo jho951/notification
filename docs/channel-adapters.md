@@ -6,6 +6,8 @@
 
 - `console`
 - `webhook`
+- `email`
+- `slack`
 
 ## 원칙
 
@@ -15,8 +17,6 @@
 
 ## 확장 기준
 
-- `email`
-- `slack`
 - 외부 벤더용 webhook adapter
 
 ## 제외

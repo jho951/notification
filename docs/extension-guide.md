@@ -12,3 +12,5 @@
 - sender는 네트워크 실패를 직접 삼키지 말고 `NotificationResult`로 돌려준다.
 - 콘솔 출력은 로컬 확인용으로만 사용한다.
 - 외부 API 호출은 타임아웃을 명시한다.
+- SMTP sender는 recipients를 모두 반영해야 한다.
+- Slack sender는 webhook payload를 단순하고 안정적으로 유지한다.

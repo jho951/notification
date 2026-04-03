@@ -9,6 +9,13 @@
 - `config`: Spring Boot auto-configuration
 - `starter`: Spring Boot 진입점
 
+## sender
+
+- `console`
+- `webhook`
+- `email`
+- `slack`
+
 ## 빌드
 
 ```bash

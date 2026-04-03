@@ -11,6 +11,8 @@
 
 - `console`: 로컬 확인
 - `webhook`: 외부 시스템 연동
+- `email`: SMTP 이메일 전송
+- `slack`: Slack webhook 전송
 
 ## 배포 기준
 

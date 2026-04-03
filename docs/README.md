@@ -15,3 +15,4 @@
 2. 각 모듈 역할은 `modules.md`
 3. sender와 전달 흐름은 `delivery-model.md`
 4. 새 sender 추가는 `extension-guide.md`
+5. 채널 범위는 `channel-adapters.md`

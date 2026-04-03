@@ -13,6 +13,8 @@
 
 - `console`: stdout 출력
 - `webhook`: HTTP POST
+- `email`: SMTP
+- `slack`: Slack webhook
 
 ## 제외 범위
 
